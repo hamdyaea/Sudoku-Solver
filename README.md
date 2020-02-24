@@ -3,8 +3,17 @@
 
 # Sudoku Solver  
 
+One Sudoku  
+![Screenshot](sudoku.jpg)    
+
+
+Put it in the code (with or without spaces)  
 ![Screenshot](screenshot.png)  
+
+
+The solution (one or many if possible)  
 ![Screenshot1](screenshot1.png)  
+
 
  Developer : Hamdy Abou ElAnein                                                                                              
   hamdy.aea@protonmail.com  
