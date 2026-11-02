@@ -1,27 +1,21 @@
-![Awesome](awesome.svg) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![Python](python.png)
+# Sudoku Solver
 
-# Sudoku Solver  
+A pure-Python 9×9 Sudoku solver with input validation and deterministic backtracking.
 
-One Sudoku  
-![Screenshot](sudoku.jpg)    
+**Developer:** Hamdy Abou El Anein
+**Contact:** info@daylightlinux.ch
+**License:** GNU GPL v3 (see LICENSE).
 
+## Highlights
 
-Put it in the code (with or without spaces)  
-![Screenshot](screenshot.png)  
+- Python 3 standard library only; no EasyGUI or NumPy dependency.
+- Explicit CLI options, validation and automated tests.
+- Original implementation preserved in the [old branch](https://github.com/hamdyaea/Sudoku-Solver/tree/old).
 
+## Run
 
-The solution (one or many if possible)  
-![Screenshot1](screenshot1.png)  
+    python3 SudokuSolver.py puzzle.txt
 
+## Test
 
- Developer : Hamdy Abou ElAnein                                                                                              
-  hamdy.aea@protonmail.com  
-
-  This is a Sudoku Solver. Replace the numbers you need in the code with 0. If it's more than one solution it will show you all other solutions.
-
-  It need the numpy library.
-```sh 
-pip install numpy
-
-```
+    python3 -m unittest discover -s tests -v
